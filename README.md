@@ -1,6 +1,6 @@
 # 控制台
 
-本项目是一个轻量显存需求的 TTS + LLM agent 方案，用于在本地运行 AI 角色控制台：
+本项目是一个轻量部署需求的 TTS + LLM agent 方案，用于在本地运行 AI 角色控制台：
 
 - LLM：通过 `llama.cpp` 加载 Qwen GGUF。
 - TTS：通过 `onnxruntime-gpu` 加载 Chatterbox multilingual ONNX q4。
