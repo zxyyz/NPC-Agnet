@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Local runtime state
+*.log
+*.tmp
+*.wav
+config/agent_settings.json
+config/agnet_persona.txt
+
+# Large local assets
+models/**/*
+!models/**/
+!models/README.md
+!models/llm/README.md
+!models/tts/README.md
+runtime/**/*
+!runtime/**/
+!runtime/README.md
+
+# Legacy / accidental dependencies
+node_modules/
+package-lock.json
